@@ -1,0 +1,75 @@
+:root {
+    /* COLORS */
+    --light-red: #b03f3f;
+    --red: #e91f1f;
+    --burgundy: #460d0d;
+    --light-grey: #e6e6e6;
+    --med-grey: #443f3f;
+    --dark-grey: #1f1e1e;
+    --light-brass: #aca27f;
+    --brass: #574c1e;
+}
+
+/* TYPOGRAPHY */
+
+@font-face {
+    font-family: 'Gothic A1';
+    src: url('gothica1-regular-webfont.woff2') format('woff2'),
+        url('gothica1-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Averia Serif Libre';
+    src: url('averiaseriflibre-regular-webfont.woff2') format('woff2'),
+        url('averiaseriflibre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+    FONTS:
+        Headings    font-family: 'Averia Serif Libre', cursive;
+        Body        font-family: 'Gothic A1', sans-serif;
+ */
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+h3,
+h4 {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+/* UNIVERSAL STYLES */
+
+
+
+/* HEADER */
+
+
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
+
+
+/* MEDIA QUERIES */
+
+/* MEDIUM LAYOUT */
+@media screen and (min-width: 768px) {}
+
+/* LARGE LAYOUT */
+@media screen and (min-width: 1024px) {}
